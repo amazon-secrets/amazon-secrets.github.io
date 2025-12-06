@@ -27,6 +27,12 @@ The entire purpose is to create a convincing-looking sales page as a prank, whil
 
 ## Tech Stack
 
+### Pure HTML Version (GitHub Pages Ready)
+- **HTML5** with inline CSS
+- **Vanilla JavaScript** for interactions
+- **No dependencies** - Single file, ready to deploy
+
+### React Version (Development)
 - **Frontend**: React + Tailwind CSS
 - **UI Components**: shadcn/ui
 - **Icons**: Lucide React
@@ -36,7 +42,8 @@ The entire purpose is to create a convincing-looking sales page as a prank, whil
 
 ```
 /app
-├── frontend/          # React application
+├── index.html         # 🌟 Pure HTML version - GitHub Pages ready!
+├── frontend/          # React application (development version)
 │   ├── src/
 │   │   ├── pages/
 │   │   │   └── LandingPage.jsx    # Main satirical landing page
@@ -51,12 +58,23 @@ The entire purpose is to create a convincing-looking sales page as a prank, whil
 
 - 🎭 Professional-looking design to enhance the joke
 - 📱 Fully responsive layout
-- 🎨 Clean, modern UI with Tailwind CSS
+- 🎨 Clean, modern UI
 - 💬 Optimized meta tags for WhatsApp/social media previews
 - 🔘 Interactive elements that reveal the joke
 - ⚖️ Clear disclaimers throughout the page
+- 📦 Single HTML file - no build process needed
 
-## Running Locally
+## Deployment Options
+
+### Option 1: GitHub Pages (Recommended - Easiest)
+Simply upload `index.html` to your GitHub repository and enable GitHub Pages.
+
+```bash
+# The index.html file is ready to use as-is!
+# Just commit it to your repo and enable GitHub Pages in settings
+```
+
+### Option 2: Running React Version Locally
 
 ```bash
 cd frontend
