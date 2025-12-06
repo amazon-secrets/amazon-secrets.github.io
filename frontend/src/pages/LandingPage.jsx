@@ -195,10 +195,10 @@ const LandingPage = () => {
                 Pronto Para NÃO Cometer Crimes?
               </CardTitle>
               <CardDescription className="text-lg">
-                Por apenas R$ 97,00 você pode ter acesso a este ebook inexistente
+                Por apenas $19.99 você pode ter acesso a este ebook inexistente
               </CardDescription>
               <div className="pt-4">
-                <div className="text-4xl font-bold text-slate-900 mb-2">R$ 97,00</div>
+                <div className="text-4xl font-bold text-slate-900 mb-2">$19.99</div>
                 <p className="text-slate-600">Pagamento único (que não existe)</p>
               </div>
             </CardHeader>
