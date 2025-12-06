@@ -78,7 +78,7 @@ const LandingPage = () => {
             className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-6 text-lg"
             onClick={handleBuyClick}
           >
-            Comprar Agora por R$ 97,00
+            Comprar Agora por $19.99
           </Button>
           <Button 
             size="lg" 
